@@ -1,5 +1,6 @@
 import discord
 import os
+from telnetlib import XDISPLOC
 
 client = discord.Client()
 
@@ -16,3 +17,4 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 client.run('key')
+''' XD
